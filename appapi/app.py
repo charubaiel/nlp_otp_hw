@@ -15,4 +15,4 @@ async def root():
 
 @app.post("/is_toxic")
 def create_item(item: Item):
-    return f'"{item.comment}" токсично на {voting(str(item.comment))[0]:.1%}'
+    return f'"{item.comment}" токсично на {voting([item.comment])[0]:.1%}'
