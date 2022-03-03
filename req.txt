@@ -1,0 +1,10 @@
+pandas
+numpy
+fastapi
+uvicorn
+lightgbm
+sklearn
+nltk
+matplotlib
+natasha
+pydantic
